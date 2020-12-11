@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        recyclerView_main.setBackgroundColor(Color.YELLOW)
+        recyclerView_main.setBackgroundColor(Color.BLUE)
 
 
         recyclerView_main.layoutManager = LinearLayoutManager(this)
